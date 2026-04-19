@@ -14,7 +14,7 @@ This project is written in **C**.
 
 ### Requirements
 Make sure to have `gcc`, `make`, `git` and ncurses development library programs installed on your system.
-You can use your package manager (apt: `gcc make git ncurses-dev`, dnf: `gcc make git ncurses-devel`).
+You can use your package manager (apt: `gcc make git libncurses-dev`, dnf: `gcc make git ncurses-devel`).
 
 ---
 
