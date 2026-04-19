@@ -7,6 +7,7 @@
 # This program comes with NO WARRANTY; to the extent permitted by law.
 CC      = gcc
 CFLAGS  = -Wall -Wextra -std=c99 -Iinclude -g
+LIBS    = -lncurses
 TARGET  = msg
 SRC_DIR = src
 OBJ_DIR = obj
@@ -22,7 +23,7 @@ $(OBJ_DIR):
 	mkdir -p $(OBJ_DIR)/
 
 $(TARGET): $(OBJS)
-	$(CC) $(OBJS) -o $(TARGET)
+	$(CC) $(OBJS) -o $(TARGET) $(LIBS)
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	$(CC) $(CFLAGS) -c $< -o $@
