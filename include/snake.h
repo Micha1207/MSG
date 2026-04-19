@@ -25,7 +25,7 @@
 
 typedef struct {
   int y, x;
-} Element;
+} Segment;
 
 int snake();
 
