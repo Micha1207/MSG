@@ -7,7 +7,7 @@ A small snake game
 This project is written in **C**.
 
 ### Features
-- Controls with arrows or keys W for up, S for down, A for left and D for right
+- Controls with arrows or keys: W for up, S for down, A for left and D for right
 - Point counting
 - Colorful interface
 ---
