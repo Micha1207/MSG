@@ -78,6 +78,8 @@ int snake(){
   attroff(COLOR_PAIR(2));
 
   Segment snake[SNAKE_LEN_MAX];
+  snake[0].x = 0;
+  snake[0].y = 0;
   attron(COLOR_PAIR(3));
   mvprintw(snake[0].y, snake[0].x, "O");
   attroff(COLOR_PAIR(3));
